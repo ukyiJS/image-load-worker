@@ -1,6 +1,6 @@
 import { createBrowserRouter, redirect } from 'react-router-dom';
 import App from '@/pages';
-import { imageRoutes } from '@/router/image.tsx';
+import { imageRouter } from '@/router/image.router';
 
 export const router = createBrowserRouter([
   {
@@ -11,7 +11,7 @@ export const router = createBrowserRouter([
         path: '',
         loader: () => redirect('/image'),
       },
-      ...imageRoutes,
+      ...imageRouter,
     ],
   },
 ]);
