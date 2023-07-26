@@ -237,7 +237,7 @@ module.exports = defineConfig({
     '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
     '@typescript-eslint/member-ordering': [
       'error',
-      { default: ['signature', 'method', 'constructor', 'field'] },
+      { default: ['signature', 'method', 'field', 'constructor'] },
     ],
     '@typescript-eslint/method-signature-style': ['error', 'method'],
     '@typescript-eslint/no-confusing-non-null-assertion': 'error',
