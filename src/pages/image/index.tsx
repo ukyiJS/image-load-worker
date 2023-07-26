@@ -2,7 +2,7 @@ import ImageContainer from '@/components/imageContainer';
 import { useRandomImage } from '@/hooks/useRandomImage';
 
 export default function Image(): JSX.Element {
-  const images = useRandomImage(100);
+  const images = useRandomImage(60);
 
   return (
     <section className="w-full h-full">
