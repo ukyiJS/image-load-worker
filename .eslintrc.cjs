@@ -20,7 +20,7 @@ module.exports = defineConfig({
     'import',
   ],
   rules: {
-    eqeqeq: ['warn', 'always', { null: 'never' }],
+    eqeqeq: ['warn', 'always'],
     'no-console': 'warn',
     'no-debugger': 'warn',
     'no-empty': ['warn', { allowEmptyCatch: true }],
@@ -275,7 +275,7 @@ module.exports = defineConfig({
     'react/jsx-indent': ['error', 2],
     'react/jsx-newline': ['error', { prevent: true }],
     'react/jsx-no-useless-fragment': 'error',
-    'react/jsx-one-expression-per-line': 'error',
+    'react/jsx-one-expression-per-line': ['error', { allow: 'literal' }],
     'react/jsx-props-no-multi-spaces': 'error',
     'react/jsx-sort-props': ['error', {
       noSortAlphabetically: true, reservedFirst: true, shorthandLast: true, callbacksLast: false,
