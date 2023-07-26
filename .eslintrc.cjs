@@ -65,7 +65,7 @@ module.exports = defineConfig({
     }],
     'space-in-parens': ['error', 'never'],
     'prefer-arrow-callback': ['error', { allowUnboundThis: false }],
-    'arrow-body-style': ['error', 'never'],
+    'arrow-body-style': ['error', 'as-needed'],
     'no-useless-constructor': 'error',
     indent: ['error', 2, {
       SwitchCase: 1,
